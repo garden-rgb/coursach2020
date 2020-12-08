@@ -1,0 +1,30 @@
+concept_Indiana_Jones_cinema_universe
+=> nrel_main_idtf:
+	[Киновселенная Индианы Джонса]
+	(*<-lang_ru;;*);
+     [Indiana Jones cinema universe]
+ 	(*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр. (Киновселенная Индианы Джонса)](*<-lang_ru;;*);
+[Definition (Indiana Jones cinema universe)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Indiana_Jones_cinema_universe_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Indiana_Jones_cinema_universe_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Киновселенная Индианы Джонса)](*<-lang_ru;;*); 
+[Pic. (Indiana Jones cinema universe)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_Indiana_Jones_cinema_universe.png"(*=>nrel_format:format_png;;*);; 
+*);; 
+*);; 
+
+concept_cinema_universe ->concept_Indiana_Jones_cinema_universe;;
+concept_Indiana_Jones_cinema_universe <-Subject_domain_Cinema_Universe;;

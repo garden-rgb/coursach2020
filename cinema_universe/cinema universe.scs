@@ -1,0 +1,36 @@
+concept_cinema_universe
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+ 	[Кинематографическая вселенная]
+	(*<-lang_ru;;*);
+	[Cinematic_Universe]
+ 	(*<-lang_en;;*);
+=> nrel_idtf :
+	[Киновселенная]
+	(*<-lang_ru;;*);
+     [Cinema Universe]
+ 	(*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр. (Кинематографическая вселенная)](*<-lang_ru;;*);
+[Definition (Cinematic Universe)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_cinema_universe;
+concept_film;
+concept_series;
+concept_actor;
+concept_character;
+concept_event
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_cinema_universe_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_cinema_universe_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*);;
+
+
