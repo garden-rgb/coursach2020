@@ -1,0 +1,206 @@
+concept_star_trek_insurrection
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь: Восстание] 
+(* <- lang_ru;; *); 
+[Star Trek: Insurrection] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь: Восстание)](*<-lang_ru;;*);
+[Description (Star Trek: Insurrection)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Geordi;
+character_Picard; 
+character_Worf;
+character_Riker;
+character_Data 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_insurrection_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_insurrection_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Защищайтесь до конца.»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“Defend Forever"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Jonathan_Frakes; 
+=>nrel_producer: Rick_Berman;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Matthew_Leonetti;
+=>nrel_film_composer: Jerry_Goldsmith; 
+=>nrel_editor: Peter_Berger;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Saturn_1999}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1998
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 103
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 112587658 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Geordi;;
+->character_Picard;; 
+->character_Riker;;
+->character_Data;;
+->character_Worf;;
+->character_Troi;; 
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь: Восстание)](*<-lang_ru;;*);
+		[Pic. (Star Trek: Insurrection)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_insurrection.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Troi
+        => nrel_main_idtf: 
+            [Диана Трой ] (* <-lang_ru;; *);
+		  [Troi] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Диана Трой )] (* <-lang_ru;; *);
+				[Description of character(Troi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Troi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Troi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Диана Трой)](*<-lang_ru;;*);
+		[Pic. (Troi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Deanna_Troi.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Jonathan_Frakes
+=> nrel_main_idtf: 
+            [Джонатан Фрэйкс] (* <-lang_ru;; *);
+		  [Jonathan Frakes] (* <-lang_en;; *);;
+Rick_Berman
+  => nrel_main_idtf: 
+            [Рик Берман] (* <-lang_ru;; *);
+		  [Rick_Berman] (* <-lang_en;; *);;
+		  
+Marty_Hornstein
+  => nrel_main_idtf: 
+            [Марти Хорштейн] (* <-lang_ru;; *);
+		  [Marty Hornstein] (* <-lang_en;; *);;
+Peter_Lauritson
+  => nrel_main_idtf: 
+            [Питер Лоритсон] (* <-lang_ru;; *);
+		  [Peter Lauritson] (* <-lang_en;; *);;
+Matthew_Leonetti
+  => nrel_main_idtf: 
+            [ Мэттью Леонетти] (* <-lang_ru;; *);
+		  [Matthew Leonetti] (* <-lang_en;; *);;
+Peter_Lauritson
+  => nrel_main_idtf: 
+            [Питер Лоритсон] (* <-lang_ru;; *);
+		  [Peter Lauritson] (* <-lang_en;; *);;
+Jerry_Goldsmith
+  => nrel_main_idtf: 
+            [Джерри Голдсмит] (* <-lang_ru;; *);
+		  [Jerry Goldsmith] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+Saturn_1999
+ => nrel_main_idtf: 
+            [Сатурн, 1999] (* <-lang_ru;; *);
+		  [Saturn, 1999] (* <-lang_en;; *);;
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

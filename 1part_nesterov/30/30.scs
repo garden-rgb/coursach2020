@@ -1,0 +1,233 @@
+concept_star_trek_the_wrath_of_khan
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь 2: Гнев Хана] 
+(* <- lang_ru;; *); 
+[Star Trek II: The Wrath of Khan] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь 2: Гнев Хана)](*<-lang_ru;;*);
+[Description (Star Trek II: The Wrath of Khan)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Spock; 
+character_Dr._McCoy;
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_the_wrath_of_khan_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_the_wrath_of_khan_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Приготовьтесь к восторгу от Warp-10!»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“Prepare Yourself For Warp-10 Excitement!"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Nicholas_Meyer; 
+=>nrel_producer: Robert_Sallin;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Gayne_Rescher;
+=>nrel_film_composer: James_Horner; 
+=>nrel_editor: William_Paul_Dornisch;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Saturn_2010; Saturn_1983; Hugo_1983}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1982
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 113
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 78912963 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Spock;; 
+->character_Dr._McCoy;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_PG13;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь 2: Гнев Хана)](*<-lang_ru;;*);
+		[Pic. (Star Trek II: The Wrath of Khan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_the_wrath_of_khan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Chekov
+=> nrel_main_idtf: 
+[Павел Чехов] (* <-lang_ru;; *); 
+[Chekov] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Павел Чехов)] (* <-lang_ru;; *); 
+[Description of character(Chekov)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Chekov_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Chekov_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Павел Чехов)](*<-lang_ru;;*); 
+[Pic. (Chekov)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Chekov.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Uhura
+=> nrel_main_idtf: 
+[Ухура] (* <-lang_ru;; *); 
+[Uhura] (* <-lang_en;; *);  
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Ухура)] (* <-lang_ru;; *); 
+[Description of character(Uhura)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Uhura_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Uhura_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Ухура)](*<-lang_ru;;*); 
+[Pic. (Uhura)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Uhura.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Nicholas_Meyer
+=> nrel_main_idtf: 
+            [Николас Мейер] (* <-lang_ru;; *);
+		  [Nicholas Meyer] (* <-lang_en;; *);;
+Robert_Sallin
+  => nrel_main_idtf: 
+            [Роберт Саллин] (* <-lang_ru;; *);
+		  [Robert Sallin] (* <-lang_en;; *);;
+Gayne_Rescher
+  => nrel_main_idtf: 
+            [Гэйн Решер] (* <-lang_ru;; *);
+		  [Gayne Rescher] (* <-lang_en;; *);;
+James_Horner
+  => nrel_main_idtf: 
+            [Джеймс Хорнер] (* <-lang_ru;; *);
+		  [James Horner] (* <-lang_en;; *);;
+William_Paul_Dornisch
+  => nrel_main_idtf: 
+            [Уильям Пол Дорниш] (* <-lang_ru;; *);
+		  [William Paul Dornisch] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_1983
+ => nrel_main_idtf: 
+            [Сатурн, 1983] (* <-lang_ru;; *);
+		  [Saturn, 1983] (* <-lang_en;; *);;
+Hugo_1983
+ => nrel_main_idtf: 
+    	[Хьюго, 1983] (* <-lang_ru;; *);
+	 [Hugo, 1983] (* <-lang_en;; *);;
+Saturn_2010
+ => nrel_main_idtf: 
+            [Сатурн, 2010] (* <-lang_ru;; *);
+		  [Saturn, 2010] (* <-lang_en;; *);;
+	 
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

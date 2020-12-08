@@ -1,0 +1,259 @@
+concept_indiana_jones_and_the_last_crusade
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Индиана Джонс и последний крестовый поход] 
+(* <- lang_ru;; *); 
+[Indiana Jones and the Last Crusade] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Индиана Джонс и последний крестовый поход)](*<-lang_ru;;*);
+[Description (Indiana Jones and the Last Crusade)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Indiana_Jones;
+character_Professor_Henry_Jones; 
+character_Marcus_Brody 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_indiana_jones_and_the_last_crusade_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_indiana_jones_and_the_last_crusade_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Мужчина в шляпе вернулся. И на этот раз он приводит своего отца»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“The man with the hat is back. And this time, he's bringing his Dad"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Steven_Spielberg; 
+=>nrel_producer: Robert_Watts;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Douglas_Slocombe;
+=>nrel_film_composer: John_Williams; 
+=>nrel_editor: Michael_Kahn;
+=>nrel_genre:{Adventure; concept_action}; 
+=>nrel_be_awarded: {Saturn_2004; Oscar_1990; Saturn_1991; BAFTA_1990; Hugo_1990}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1989
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 127
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 475171806 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Indiana_Jones;; 
+->character_Professor_Henry_Jones;; 
+->character_Marcus_Brody;; 
+->character_Elsa;;
+->character_Sallah;;
+->character_Walter_Donovan;;   
+*); 
+=>nrel_age_rating: concept_PG13;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Индиана Джонс и последний крестовый поход)](*<-lang_ru;;*);
+		[Pic. (Indiana Jones and the Last Crusade)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Indiana_jones_last_crusade.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Professor_Henry_Jones
+=> nrel_main_idtf: 
+[профессор Генри Джонс] (* <-lang_ru;; *); 
+[Professor Henry Jons] (* <-lang_en;; *);  
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(профессор Генри Джонс)] (* <-lang_ru;; *); 
+[Description of character(Professor Henry Jons)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Professor_Henry_Jones_def.ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Professor_Henry_Jones_def.en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (профессор Генри Джонс)](*<-lang_ru;;*); 
+[Pic. (Professor Henry Jons)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Henry_Jones.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Marcus_Brody
+        => nrel_main_idtf: 
+            [Маркус Броуди] (* <-lang_ru;; *);
+		  [Marcus Brody] (* <-lang_en;; *); 
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Маркус Броуди)] (* <-lang_ru;; *);
+				[Description of character(Marcus Brody)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Marcus_Brody_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Marcus_Brody_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Маркус Броуди)](*<-lang_ru;;*);
+		[Pic. (Marcus Brody)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Marcus_Brody.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_Elsa
+        => nrel_main_idtf: 
+            [Эльза] (* <-lang_ru;; *);
+		  [Elsa] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Эльза)] (* <-lang_ru;; *);
+				[Description of character(Elsa)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Elsa_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Elsa_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эльза)](*<-lang_ru;;*);
+		[Pic. (Elsa)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Elsa_Schneider.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Steven_Spielberg
+=> nrel_main_idtf: 
+            [Стивен Спилберг] (* <-lang_ru;; *);
+		  [Steven Spielberg] (* <-lang_en;; *);;
+Robert_Watts
+  => nrel_main_idtf: 
+            [Роберт Уоттс] (* <-lang_ru;; *);
+		  [Robert Watts] (* <-lang_en;; *);;
+Douglas_Slocombe
+  => nrel_main_idtf: 
+            [Дуглас Сколомб] (* <-lang_ru;; *);
+		  [Douglas Slocombe] (* <-lang_en;; *);;
+John_Williams
+  => nrel_main_idtf: 
+            [Джон Уильямс] (* <-lang_ru;; *);
+		  [John Williams] (* <-lang_en;; *);;
+Michael_Kahn
+  => nrel_main_idtf: 
+            [Майкл Кан] (* <-lang_ru;; *);
+		  [Michael Kahn] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_1991
+ => nrel_main_idtf: 
+            [Сатурн, 1991] (* <-lang_ru;; *);
+		  [Saturn, 1991] (* <-lang_en;; *);;
+Saturn_2004
+ => nrel_main_idtf: 
+            [Сатурн, 2004] (* <-lang_ru;; *);
+		  [Saturn, 2004] (* <-lang_en;; *);;
+Oscar_1990
+ => nrel_main_idtf: 
+            [Оскар, 1990] (* <-lang_ru;; *);
+		  [Oscar, 1990] (* <-lang_en;; *);;
+BAFTA_1990
+ => nrel_main_idtf: 
+            [BAFTA, 1990] (* <-lang_ru;; *);
+		  [BAFTA, 1990] (* <-lang_en;; *);;
+Hugo_1990
+ => nrel_main_idtf: 
+            [Хьюго, 1990] (* <-lang_ru;; *);
+		  [Hugo, 1990] (* <-lang_en;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

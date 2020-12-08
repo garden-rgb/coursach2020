@@ -1,0 +1,212 @@
+concept_indiana_jons_raiders_of_the_lost_ark
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Индиана Джонс: В поисках утраченного ковчега] 
+(* <- lang_ru;; *); 
+[Indiana Jons: Raiders of the Lost Ark] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Индиана Джонс: В поисках утраченного ковчега)](*<-lang_ru;;*);
+[Description (Indiana Jons: Raiders of the Lost Ark)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Indiana_Jons_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Indiana_Jons_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+
+=>nrel_tag_line: ["Индиана Джонс - новый герой"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Indiana Jones - the new hero»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Steven_Spielberg; 
+=>nrel_producer:Frank_Marshall; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Douglas_Slocombe; 
+=>nrel_editor: Michael_Kahn; 
+=>nrel_genre:concept_adventure;
+=>nrel_be_awarded:{Saturn; BAFTA; Oscar; Golden_Globe}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1981
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 115
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 384140454
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Henry_Indiana_Jones;; 
+->character_Marion_Ravenwood;; 
+->character_Rene_Belloq;; 
+->character_Major_Arnold_Toht;; 
+->character_Sallah;; 
+->character_Dr._Marcus_Brody;; 
+*); 
+=>nrel_age_rating: concept_PG;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Индиана Джонс: В поисках утраченного ковчега)](*<-lang_ru;;*);
+		[Pic. (Indiana Jons: Raiders of the Lost Ark))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Indiana_Jons.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Henry_Indiana_Jones
+=> nrel_main_idtf: 
+[ Индиана Джонс ] (* <-lang_ru;; *); 
+[ Indiana Jones ] (* <-lang_en;; *); 
+<- character_Marion_Ravenwood; 
+<- character_Rene_Belloq; 
+<- character_Major_Arnold_Toht; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Индиана Джонс )] (* <-lang_ru;; *); 
+[Description of character(Indiana Jones)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Indiana_Jons_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Indiana_Jons_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Индиана Джонс )](*<-lang_ru;;*); 
+[Pic. (Indiana Jones)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Indiana_Jons.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Rene_Belloq 
+=> nrel_main_idtf: 
+[Пазузу] (* <-lang_ru;; *); 
+[Pazuzu] (* <-lang_en;; *); 
+<- character_Regan_McNeill; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Рене Беллок)] (* <-lang_ru;; *); 
+[Description of character(Rene Belloq)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Rene_Belloq_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Rene_Belloq_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Рене Беллок)](*<-lang_ru;;*); 
+[Pic. (Rene Belloq)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Rene_Belloq.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Marion_Ravenwood
+        => nrel_main_idtf: 
+            [Рэйвенвуд Мэрион] (* <-lang_ru;; *);
+		  [Marion Ravenwood] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Рэйвенвуд Мэрион)] (* <-lang_ru;; *);
+				[Description of character(Marion Ravenwood)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Marion_Ravenwood_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Marion_Ravenwood_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рэйвенвуд Мэрион)](*<-lang_ru;;*);
+		[Pic. (Marion Ravenwood)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Marrion.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Steven_Spielberg
+  => nrel_main_idtf: 
+            [Стивен Спилберг] (* <-lang_ru;; *);
+		  [Steven Spielberg] (* <-lang_en;; *);;
+
+Frank_Marshall
+  => nrel_main_idtf: 
+            [Фрэнк Маршалл] (* <-lang_ru;; *);
+		  [Frank Marshall] (* <-lang_en;; *);;
+
+Douglas_Slocombe
+  => nrel_main_idtf: 
+            [Дуглас Сколомб] (* <-lang_ru;; *);
+		  [Douglas Slocombe] (* <-lang_en;; *);;
+
+Michael_Kahn
+  => nrel_main_idtf: 
+            [Майкл Кан] (* <-lang_ru;; *);
+		  [Michael Kahn] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn
+ => nrel_main_idtf: 
+            [Сатурн, 1982 год] (* <-lang_ru;; *);
+		  [Saturn, 1982] (* <-lang_en;; *);;
+
+BAFTA
+ => nrel_main_idtf: 
+            [Бафта, 1982 год] (* <-lang_ru;; *);
+		  [Bafta, 1982] (* <-lang_en;; *);;
+
+Oscar
+ => nrel_main_idtf: 
+            [Оскар, 1982 год] (* <-lang_ru;; *);
+		  [Oscar, 1982] (* <-lang_en;; *);;
+
+Golden_Globe
+ => nrel_main_idtf: 
+            [Золотой глобус, 1982 год] (* <-lang_ru;; *);
+		  [Golden globe, 1982] (* <-lang_en;; *);;

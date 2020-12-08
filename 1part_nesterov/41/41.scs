@@ -1,0 +1,181 @@
+concept_star_trek_beyond
+<-sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Стартрек: Бесконечность] 
+(* <- lang_ru;; *); 
+[Star Trek Beyond] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Стартрек: Бесконечность)](*<-lang_ru;;*);
+[Description (Star Trek Beyond)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Spock; 
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_beyond_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_beyond_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Стартрек: Бесконечность»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“Star Trek Beyond"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Justin_Lin; 
+=>nrel_producer: {J._J._Abrams; Lindsey_Weber};
+=>nrel_production_country: USA;
+=>nrel_cameraman: Stephen_Windon;
+=>nrel_film_composer: Michael_Giacchino; 
+=>nrel_editor: {Mary_Jo_Markey; Dylan_Highsmith};
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: Saturn_2017; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2016
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 122
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 343471816 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Spock;; 
+->character_David;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Saavik;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стартрек: Бесконечность)](*<-lang_ru;;*);
+		[Pic. (Star Trek Beyond)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_beyond.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Justin_Lin
+=> nrel_main_idtf: 
+            [Джастин Лин] (* <-lang_ru;; *);
+		  [Justin Lin] (* <-lang_en;; *);;
+
+J._J._Abrams
+=> nrel_main_idtf: 
+            [ Дж. Дж. Абрамс] (* <-lang_ru;; *);
+		  [J. J. Abrams] (* <-lang_en;; *);;
+Stephen_Windon
+=> nrel_main_idtf: 
+            [ Стивен Ф. Уиндон] (* <-lang_ru;; *);
+		  [Stephen Windon] (* <-lang_en;; *);;
+Dylan_Highsmith
+  => nrel_main_idtf: 
+            [Дилан Хигсмит] (* <-lang_ru;; *);
+		  [Dylan Highsmith] (* <-lang_en;; *);;
+Michael_Giacchino
+  => nrel_main_idtf: 
+            [Майкл Джаккино] (* <-lang_ru;; *);
+		  [Michael Giacchino] (* <-lang_en;; *);;
+Mary_Jo_Markey
+  => nrel_main_idtf: 
+            [Мари Джо Маркей] (* <-lang_ru;; *);
+		  [Mary Jo Markey] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_2017
+ => nrel_main_idtf: 
+            [Сатурн, 2017] (* <-lang_ru;; *);
+		  [Saturn, 2017] (* <-lang_en;; *);;
+		  
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

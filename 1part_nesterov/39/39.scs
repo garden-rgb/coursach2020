@@ -1,0 +1,181 @@
+concept_star_trek_2009
+<-sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь, 2009] 
+(* <- lang_ru;; *); 
+[Star Trek, 2009] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь, 2009)](*<-lang_ru;;*);
+[Description (Star Trek, 2009)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Spock; 
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_2009_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_2009_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«До Стражей Галактики... Был Стар Трек»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“Before Guardians of the Galaxy... There was Star Trek"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: J._J._Abrams; 
+=>nrel_producer: J._J._Abrams;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Dan_Mindel;
+=>nrel_film_composer: Michael_Giacchino; 
+=>nrel_editor: Mary_Jo_Markey;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Hugo_2010; Saturn_2010; Oscar_2010}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2009
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 127
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 385758801 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Spock;; 
+->character_David;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Saavik;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь, 2009)](*<-lang_ru;;*);
+		[Pic. (Star Trek, 2009)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_2009.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+J._J._Abrams
+=> nrel_main_idtf: 
+            [ Дж. Дж. Абрамс] (* <-lang_ru;; *);
+		  [J. J. Abrams] (* <-lang_en;; *);;
+Dan_Mindel
+  => nrel_main_idtf: 
+            [Дэн Миндел] (* <-lang_ru;; *);
+		  [Dan Mindel] (* <-lang_en;; *);;
+Michael_Giacchino
+  => nrel_main_idtf: 
+            [Майкл Джаккино] (* <-lang_ru;; *);
+		  [Michael Giacchino] (* <-lang_en;; *);;
+Mary_Jo_Markey
+  => nrel_main_idtf: 
+            [Мари Джо Маркей] (* <-lang_ru;; *);
+		  [Mary Jo Markey] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_2010
+ => nrel_main_idtf: 
+            [Сатурн, 2010] (* <-lang_ru;; *);
+		  [Saturn, 2010] (* <-lang_en;; *);;
+		  
+Hugo_2010
+ => nrel_main_idtf: 
+    	[Хьюго, 2010] (* <-lang_ru;; *);
+	 [Hugo, 2010] (* <-lang_en;; *);;
+
+Oscar_2010
+=> nrel_main_idtf: 
+            [Оскар, 2010] (* <-lang_ru;; *);
+		  [Oscar, 2010] (* <-lang_en;; *);;
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

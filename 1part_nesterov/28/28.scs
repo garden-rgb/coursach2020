@@ -1,0 +1,248 @@
+concept_indiana_jones_and_the_kingdom_of_the_crystal_skull
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Индиана Джонс и Королевство хрустального черепа] 
+(* <- lang_ru;; *); 
+[Indiana Jones and the Kingdom of the Crystal Skull] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Индиана Джонс и Королевство хрустального черепа)](*<-lang_ru;;*);
+[Description (Indiana Jones and the Kingdom of the Crystal Skull)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Indiana_Jones;
+character_Irina_Spalko; 
+character_Marion_Ravenwood 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Indiana_Jones_and_the_kingdom_of_the_crystal_skull_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Indiana_Jones_and_the_kingdom_of_the_crystal_skull_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Приключение продолжается . . .»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“The adventure continues . . ."] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Steven_Spielberg; 
+=>nrel_producer: Frank_Marshall;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Janusz_Kaminski;
+=>nrel_film_composer: John_Williams; 
+=>nrel_editor: Michael_Kahn;
+=>nrel_genre:{Adventure; concept_action}; 
+=>nrel_be_awarded: {BAFTA_2009; MTV_2009}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2008
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 122
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 790653942 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Indiana_Jones;; 
+->character_Irina_Spalko;; 
+->character_Marion_Ravenwood;; 
+->character_Mutt_Williams;;
+->character_Mac_George_Michale;;
+->character_Professor_Oxley;;   
+*); 
+=>nrel_age_rating: concept_PG13;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Индиана Джонс и Королевство хрустального черепа)](*<-lang_ru;;*);
+		[Pic. (Indiana Jones and the Kingdom of the Crystal Skull)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Indiana_Jons_kingdom_of_the_crystal_skull.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Irina_Spalko
+=> nrel_main_idtf: 
+[Ирина Спалько] (* <-lang_ru;; *); 
+[Irina Spalko] (* <-lang_en;; *);  
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Ирина Спалько)] (* <-lang_ru;; *); 
+[Description of character(Irina Spalko)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Irina_Spalko_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Irina_Spalko_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Ирина Спалько)](*<-lang_ru;;*); 
+[Pic. (Irina Spalko)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Irina_Spalko.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Marion_Ravenwood
+        => nrel_main_idtf: 
+            [Мэрион Рэйвенвуд] (* <-lang_ru;; *);
+		  [Marion Ravenwood] (* <-lang_en;; *); 
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Мэрион Рэйвенвуд)] (* <-lang_ru;; *);
+				[Description of character(Marion Ravenwood)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Marion_Ravenwood_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Marion_Ravenwood_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мэрион Рэйвенвуд)](*<-lang_ru;;*);
+		[Pic. (Marion Ravenwood)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Marion.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_Mutt_Williams
+        => nrel_main_idtf: 
+            [Мэтт Уильямс] (* <-lang_ru;; *);
+		  [Mutt Williams] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Мэтт Уильямс)] (* <-lang_ru;; *);
+				[Description of character(Mutt Williams)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Mutt_Williams_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Mutt_Williams_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мэтт Уильямс)](*<-lang_ru;;*);
+		[Pic. (Mutt Williams)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Mutt_Williams.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Steven_Spielberg
+=> nrel_main_idtf: 
+            [Стивен Спилберг] (* <-lang_ru;; *);
+		  [Steven Spielberg] (* <-lang_en;; *);;
+Frank_Marshall
+  => nrel_main_idtf: 
+            [Фрэнк Маршалл] (* <-lang_ru;; *);
+		  [Frank Marshall] (* <-lang_en;; *);;
+Janusz_Kaminski
+  => nrel_main_idtf: 
+            [Януш Каминский] (* <-lang_ru;; *);
+		  [Janusz Kamiński] (* <-lang_en;; *);;
+John_Williams
+  => nrel_main_idtf: 
+            [Джон Уильямс] (* <-lang_ru;; *);
+		  [John Williams] (* <-lang_en;; *);;
+Michael_Kahn
+  => nrel_main_idtf: 
+            [Майкл Кан] (* <-lang_ru;; *);
+		  [Michael Kahn] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+MTV_2009
+ => nrel_main_idtf: 
+            [Премия канала «MTV», 2009] (* <-lang_ru;; *);
+		  [MTV Channel Award, 2009] (* <-lang_en;; *);;
+BAFTA_2009
+ => nrel_main_idtf: 
+            [BAFTA, 1990] (* <-lang_ru;; *);
+		  [BAFTA, 1990] (* <-lang_en;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

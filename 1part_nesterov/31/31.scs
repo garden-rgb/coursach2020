@@ -1,0 +1,206 @@
+concept_star_trek_the_search_for_spock
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь 3: В поисках Спока] 
+(* <- lang_ru;; *); 
+[Star Trek III: The Search for Spock] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь 3: В поисках Спока)](*<-lang_ru;;*);
+[Description (Star Trek III: The Search for Spock)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Spock; 
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_the_search_for_spock_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_the_search_for_spock_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Присоединяйтесь к исследованию»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“Join the search"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Leonard_Nimoy; 
+=>nrel_producer: Harve_Bennett;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Charles_Correll;
+=>nrel_film_composer: James_Horner; 
+=>nrel_editor: Robert_F._Shugrue;
+=>nrel_genre: {Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Hugo_1985; Saturn_1985}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1984
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 105
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 76471046 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Spock;; 
+->character_David;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Saavik;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь 3: В поисках Спока)](*<-lang_ru;;*);
+		[Pic. (Star Trek III: The Search for Spock)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_the_search_for_spock.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_David
+=> nrel_main_idtf: 
+[Дэвид Маркус] (* <-lang_ru;; *); 
+[David] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Дэвид Маркус)] (* <-lang_ru;; *); 
+[Description of character(David)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_David_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_David_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Дэвид Маркус)](*<-lang_ru;;*); 
+[Pic. (David)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_David.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+Leonard_Nimoy
+=> nrel_main_idtf: 
+            [Леонард Нимой] (* <-lang_ru;; *);
+		  [Leonard Nimoy] (* <-lang_en;; *);;
+Harve_Bennett
+  => nrel_main_idtf: 
+            [ Харви Беннетт] (* <-lang_ru;; *);
+		  [Harve Bennett] (* <-lang_en;; *);;
+Charles_Correll
+  => nrel_main_idtf: 
+            [Чарльз Коррелл] (* <-lang_ru;; *);
+		  [Charles Correll] (* <-lang_en;; *);;
+James_Horner
+  => nrel_main_idtf: 
+            [Джеймс Хорнер] (* <-lang_ru;; *);
+		  [James Horner] (* <-lang_en;; *);;
+Robert_F._Shugrue
+  => nrel_main_idtf: 
+            [Роберт Ф. Шугру] (* <-lang_ru;; *);
+		  [Robert F. Shugrue] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_1985
+ => nrel_main_idtf: 
+            [Сатурн, 1985] (* <-lang_ru;; *);
+		  [Saturn, 1985] (* <-lang_en;; *);;
+		  
+Hugo_1985
+ => nrel_main_idtf: 
+    	[Хьюго, 1985] (* <-lang_ru;; *);
+	 [Hugo, 1985] (* <-lang_en;; *);;
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

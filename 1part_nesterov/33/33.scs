@@ -1,0 +1,179 @@
+concept_star_trek_the_final_frontier
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь 5: Последний рубеж] 
+(* <- lang_ru;; *); 
+[Star Trek V: The Final Frontier] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь 5: Последний рубеж)](*<-lang_ru;;*);
+[Description (Star Trek V: The Final Frontier)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Spock; 
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_the_final_frontier_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_the_final_frontier_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Ключ к спасению будущего, можно найти только в прошлом»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“The greatest Enterprise of all is adventure"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: William_Shatner; 
+=>nrel_producer: Harve_Bennett;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Andrew_Laszlo;
+=>nrel_film_composer: Jerry_Goldsmith; 
+=>nrel_editor: Peter_Berger;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Saturn_2010; Golden_Raspberry_Awards_1990}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1989
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 107
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 52210049 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Spock;; 
+->character_McCoy;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь 5: Последний рубеж)](*<-lang_ru;;*);
+		[Pic. (Star Trek V: The Final Frontier)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_the_final_frontier.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+William_Shatner
+=> nrel_main_idtf: 
+            [Уильям Шетнер] (* <-lang_ru;; *);
+		  [William Shatner] (* <-lang_en;; *);;
+Harve_Bennett
+  => nrel_main_idtf: 
+            [ Харви Беннетт] (* <-lang_ru;; *);
+		  [Harve Bennett] (* <-lang_en;; *);;
+Andrew_Laszlo
+  => nrel_main_idtf: 
+            [Эндрю Ласло] (* <-lang_ru;; *);
+		  [Andrew Laszlo] (* <-lang_en;; *);;
+Jerry_Goldsmith
+  => nrel_main_idtf: 
+            [Джерри Голдсмит] (* <-lang_ru;; *);
+		  [Jerry Goldsmith] (* <-lang_en;; *);;
+Peter_Berger
+  => nrel_main_idtf: 
+            [Питер Бергер] (* <-lang_ru;; *);
+		  [Peter Berger] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_2010
+ => nrel_main_idtf: 
+            [Сатурн, 2010] (* <-lang_ru;; *);
+		  [Saturn, 2010] (* <-lang_en;; *);;
+
+Golden_Raspberry_Awards_1990
+ => nrel_main_idtf: 
+            [Золотая малина, 1990] (* <-lang_ru;; *);
+		  [Golden Raspberry Awards, 1990] (* <-lang_en;; *);;
+		  
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

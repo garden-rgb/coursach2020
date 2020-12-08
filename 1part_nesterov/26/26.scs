@@ -1,0 +1,279 @@
+concept_indiana_jones_and_the_temple_of_doom
+<-sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Индиана Джонс и храм судьбы] 
+(* <- lang_ru;; *); 
+[Indiana Jones and the Temple of Doom] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Индиана Джонс и храм судьбы)](*<-lang_ru;;*);
+[Description (Indiana Jones and the Temple of Doom)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Indiana_Jones;
+character_Willie_Scott; 
+character_Short_Round 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Indiana_Jones_and_the_temple_of_doom_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Indiana_Jones_and_the_temple_of_doom_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Если у приключения есть имя ... это должен быть Индиана Джонс»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“If adventure has a name... it must be Indiana Jones"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Steven_Spielberg; 
+=>nrel_producer: Robert_Watts;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Douglas_Slocombe;
+=>nrel_film_composer: John_Williams; 
+=>nrel_editor: Michael_Kahn;
+=>nrel_genre:{Adventure; concept_action}; 
+=>nrel_be_awarded: {Saturn_2004; Oscar_1985; Saturn_1985; BAFTA_1985}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1984
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 118
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 333107271 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Indiana_Jones;; 
+->character_Willie_Scott;; 
+->character_Short_Round;; 
+->character_Mola_Ram;; 
+*); 
+=>nrel_age_rating: concept_PG13;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Индиана Джонс и храм судьбы)](*<-lang_ru;;*);
+		[Pic. (Indiana Jones and the Temple of Doom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Indiana_Jones_and_the_Temple_of_Doom.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Indiana_Jones
+=> nrel_main_idtf: 
+[Индиана Джонс] (* <-lang_ru;; *); 
+[Indiana Jones] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Индиана Джонс)] (* <-lang_ru;; *); 
+[Description of character(Indiana Jones)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Indiana_Jons_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Indiana_Jons_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Индиана Джонс)](*<-lang_ru;;*); 
+[Pic. (Indiana_Jones)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Indiana_Jons.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Willie_Scott
+=> nrel_main_idtf: 
+[Уилли Скотт] (* <-lang_ru;; *); 
+[Willie Scott] (* <-lang_en;; *);  
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Уилли Скотт)] (* <-lang_ru;; *); 
+[Description of character(Willie Scott)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Willie_Scott_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Willie_Scott_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Уиллли Скотт)](*<-lang_ru;;*); 
+[Pic. (Willie_Scott)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Willie_Scott.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Mola_Ram
+        => nrel_main_idtf: 
+            [Мол Рам] (* <-lang_ru;; *);
+		  [Mola Ram] (* <-lang_en;; *); 
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Мол Рам)] (* <-lang_ru;; *);
+				[Description of character(Mola Ram)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Mola_Ram_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Mola_Ram_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мол Рам)](*<-lang_ru;;*);
+		[Pic. (Mola Ram)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Mola_Ram.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_Short_Round
+        => nrel_main_idtf: 
+            [Коротышка] (* <-lang_ru;; *);
+		  [Short Round] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Коротышка)] (* <-lang_ru;; *);
+				[Description of character(Short Round)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Short_Round_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Short_Round_def_ru.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Коротышка)](*<-lang_ru;;*);
+		[Pic. (Short Round)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Short_Round.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Steven_Spielberg
+=> nrel_main_idtf: 
+            [Стивен Спилберг] (* <-lang_ru;; *);
+		  [Steven Spielberg] (* <-lang_en;; *);;
+Robert_Watts
+  => nrel_main_idtf: 
+            [Роберт Уоттс] (* <-lang_ru;; *);
+		  [Robert Watts] (* <-lang_en;; *);;
+Douglas_Slocombe
+  => nrel_main_idtf: 
+            [Дуглас Сколомб] (* <-lang_ru;; *);
+		  [Douglas Slocombe] (* <-lang_en;; *);;
+John_Williams
+  => nrel_main_idtf: 
+            [Джон Уильямс] (* <-lang_ru;; *);
+		  [John Williams] (* <-lang_en;; *);;
+Michael_Kahn
+  => nrel_main_idtf: 
+            [Майкл Кан] (* <-lang_ru;; *);
+		  [Michael Kahn] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_1985
+ => nrel_main_idtf: 
+            [Сатурн, 1985] (* <-lang_ru;; *);
+		  [Saturn, 1985] (* <-lang_en;; *);;
+Saturn_2004
+ => nrel_main_idtf: 
+            [Сатурн, 2004] (* <-lang_ru;; *);
+		  [Saturn, 2004] (* <-lang_en;; *);;
+Oscar_1985
+ => nrel_main_idtf: 
+            [Оскар, 1985] (* <-lang_ru;; *);
+		  [Oscar, 1985] (* <-lang_en;; *);;
+BAFTA_1985
+ => nrel_main_idtf: 
+            [BAFTA, 1985] (* <-lang_ru;; *);
+		  [BAFTA, 1985] (* <-lang_en;; *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+concept_star_trek_the_undiscovered_country
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь 6: Неоткрытая страна] 
+(* <- lang_ru;; *); 
+[Star Trek VI: The Undiscovered Country] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь 6: Неоткрытая страна)](*<-lang_ru;;*);
+[Description (Star Trek VI: The Undiscovered Country)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Spock; 
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_the_undiscovered_country_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_the_undiscovered_country_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Экипаж звездолета Enterprise борется не ради победы в битвах, а ради того, чтобы положить им конец.»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“The crew of the starship Enterprise fights not to win battles, but to end them forever"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Nicholas_Meyer; 
+=>nrel_producer: {Ralph_Winter; Steven_Charles_Jaffe};
+=>nrel_production_country: USA;
+=>nrel_cameraman: Hiro_Narita;
+=>nrel_film_composer: Cliff_Eidelman; 
+=>nrel_editor: {Ronald_Roose; William_Hoy};
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Saturn_2010; Oscar_1992; Saturn_1993}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1991
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 110
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 96888996 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Spock;; 
+->character_McCoy;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь 6: Неоткрытая страна)](*<-lang_ru;;*);
+		[Pic. (Star Trek VI: The Undiscovered Country)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_the_undiscovered_country.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Nicholas_Meyer
+=> nrel_main_idtf: 
+            [Николас Мейер] (* <-lang_ru;; *);
+		  [Nicholas Meyer] (* <-lang_en;; *);;
+Ralph_Winter
+  => nrel_main_idtf: 
+            [Ральф Винтер] (* <-lang_ru;; *);
+		  [Ralph Winter] (* <-lang_en;; *);;
+		  
+Steven_Charles_Jaffe
+  => nrel_main_idtf: 
+            [Стеффан Чарльз Джеффе] (* <-lang_ru;; *);
+		  [Steven-Charles Jaffe] (* <-lang_en;; *);;
+Hiro_Narita
+  => nrel_main_idtf: 
+            [Хиро Нарито] (* <-lang_ru;; *);
+		  [Hiro Narita] (* <-lang_en;; *);;
+Cliff_Eidelman
+  => nrel_main_idtf: 
+            [Клифф Айделмен] (* <-lang_ru;; *);
+		  [Cliff Eidelman] (* <-lang_en;; *);;
+Ronald_Roose
+  => nrel_main_idtf: 
+            [Рональд Роуз] (* <-lang_ru;; *);
+		  [Ronald Roose] (* <-lang_en;; *);;
+William_Hoy
+  => nrel_main_idtf: 
+            [Уильям Хой] (* <-lang_ru;; *);
+		  [William Hoy] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+Saturn_1993
+ => nrel_main_idtf: 
+            [Сатурн, 1993] (* <-lang_ru;; *);
+		  [Saturn, 1993] (* <-lang_en;; *);;
+
+Saturn_2010
+ => nrel_main_idtf: 
+            [Сатурн, 2010] (* <-lang_ru;; *);
+		  [Saturn, 2010] (* <-lang_en;; *);;
+
+Oscar_1992
+=> nrel_main_idtf: 
+            [Оскар, 1992] (* <-lang_ru;; *);
+		  [Oscar, 1992] (* <-lang_en;; *);;
+		  
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

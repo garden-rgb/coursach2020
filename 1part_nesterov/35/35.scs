@@ -1,0 +1,223 @@
+concept_star_trek_generations
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь: Поколения] 
+(* <- lang_ru;; *); 
+[Star Trek: Generations] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь: Поколения)](*<-lang_ru;;*);
+[Description (Star Trek: Generations)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Picard; 
+character_Scotty;
+character_Riker;
+character_Data 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_generations_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_generations_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Два капитана. Одна вселенная.»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“Two captains. One destiny"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: David_Carson; 
+=>nrel_producer: Rick_Berman;
+=>nrel_production_country: USA;
+=>nrel_cameraman: John_Alonzo;
+=>nrel_film_composer: Dennis_McCarthy; 
+=>nrel_editor: Peter_Berger;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Saturn_1995}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1994
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 118
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 118071125 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Picard;; 
+->character_Riker;;
+->character_Scotty;;
+->character_Data;;
+->character_Chekov;;
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь: Поколения)](*<-lang_ru;;*);
+		[Pic. (Star Trek: Generations)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_generations.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Picard
+        => nrel_main_idtf: 
+            [Жан-Люк Пикар] (* <-lang_ru;; *);
+		  [Picard] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Жан-Люк Пикар)] (* <-lang_ru;; *);
+				[Description of character(Picard)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Picard_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Picard_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Жан-Люк Пикар)](*<-lang_ru;;*);
+		[Pic. (Picard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Picard.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+            
+character_Riker
+        => nrel_main_idtf: 
+            [Уильям Томас Райкер ] (* <-lang_ru;; *);
+		  [Riker] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Уильям Томас Райкер)] (* <-lang_ru;; *);
+				[Description of character(Riker)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Riker_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Riker_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Уильям Томас Райкер)](*<-lang_ru;;*);
+		[Pic. (Riker)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_William_Riker.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+David_Carson
+=> nrel_main_idtf: 
+            [ Дэвид Карсон] (* <-lang_ru;; *);
+		  [David Carson] (* <-lang_en;; *);;
+Rick_Berman
+  => nrel_main_idtf: 
+            [Рик Берман] (* <-lang_ru;; *);
+		  [Rick_Berman] (* <-lang_en;; *);;
+		  
+John_Alonzo
+  => nrel_main_idtf: 
+            [ Джон Алонсо] (* <-lang_ru;; *);
+		  [John Alonzo] (* <-lang_en;; *);;
+Dennis_McCarthy
+  => nrel_main_idtf: 
+            [ Дэнис Маккарти] (* <-lang_ru;; *);
+		  [Dennis McCarthy] (* <-lang_en;; *);;
+Peter_Berger
+  => nrel_main_idtf: 
+            [Питер Бергер] (* <-lang_ru;; *);
+		  [Peter Berger] (* <-lang_en;; *);;
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+Saturn_1995
+ => nrel_main_idtf: 
+            [Сатурн, 1993] (* <-lang_ru;; *);
+		  [Saturn, 1993] (* <-lang_en;; *);;
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

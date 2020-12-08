@@ -1,0 +1,253 @@
+concept_star_trek_first_contact
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь: Первый контакт] 
+(* <- lang_ru;; *); 
+[Star Trek: First Contact] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь: Первый контакт)](*<-lang_ru;;*);
+[Description (Star Trek: First Contact)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Geordi;
+character_Picard; 
+character_Worf;
+character_Riker;
+character_Data 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_first_contact_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_first_contact_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Битва за сохранение будущего началась.»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“The battle to save the future has begun"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Jonathan_Frakes; 
+=>nrel_producer: {Rick_Berman; Marty_Hornstein; Peter_Lauritson};
+=>nrel_production_country: USA;
+=>nrel_cameraman: Matthew_Leonetti;
+=>nrel_film_composer: Jerry_Goldsmith; 
+=>nrel_editor: {Anastasia_Emmons; John_Wheeler};
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Saturn_1997}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1996
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 111
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 146027888 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Geordi;;
+->character_Picard;; 
+->character_Riker;;
+->character_Data;;
+->character_Worf;;
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь: Первый контакт)](*<-lang_ru;;*);
+		[Pic. (Star Trek: First Contact)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_first_contact.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Data
+        => nrel_main_idtf: 
+            [Дэйта ] (* <-lang_ru;; *);
+		  [Data] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Дэйта )] (* <-lang_ru;; *);
+				[Description of character(Data)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Data_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Data_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дэйта)](*<-lang_ru;;*);
+		[Pic. (Data)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Data.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+            
+character_Geordi
+        => nrel_main_idtf: 
+            [Джорди Ла Форж] (* <-lang_ru;; *);
+		  [Geordi] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Джорди Ла Форж)] (* <-lang_ru;; *);
+				[Description of character(Geordi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Geordi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Geordi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джорди Ла Форж)](*<-lang_ru;;*);
+		[Pic. (Geordi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Geordi.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+            
+character_Worf
+        => nrel_main_idtf: 
+            [ Ворф ] (* <-lang_ru;; *);
+		  [Worf] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа( Ворф )] (* <-lang_ru;; *);
+				[Description of character(Worf)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Worf_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Worf_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. ( Ворф )](*<-lang_ru;;*);
+		[Pic. (Worf)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Worf.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Jonathan_Frakes
+=> nrel_main_idtf: 
+            [Джонатан Фрэйкс] (* <-lang_ru;; *);
+		  [Jonathan Frakes] (* <-lang_en;; *);;
+Rick_Berman
+  => nrel_main_idtf: 
+            [Рик Берман] (* <-lang_ru;; *);
+		  [Rick_Berman] (* <-lang_en;; *);;
+		  
+Marty_Hornstein
+  => nrel_main_idtf: 
+            [Марти Хорштейн] (* <-lang_ru;; *);
+		  [Marty Hornstein] (* <-lang_en;; *);;
+Peter_Lauritson
+  => nrel_main_idtf: 
+            [Питер Лоритсон] (* <-lang_ru;; *);
+		  [Peter Lauritson] (* <-lang_en;; *);;
+Matthew_Leonetti
+  => nrel_main_idtf: 
+            [ Мэттью Леонетти] (* <-lang_ru;; *);
+		  [Matthew Leonetti] (* <-lang_en;; *);;
+Peter_Lauritson
+  => nrel_main_idtf: 
+            [Питер Лоритсон] (* <-lang_ru;; *);
+		  [Peter Lauritson] (* <-lang_en;; *);;
+Jerry_Goldsmith
+  => nrel_main_idtf: 
+            [Джерри Голдсмит] (* <-lang_ru;; *);
+		  [Jerry Goldsmith] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+Saturn_1997
+ => nrel_main_idtf: 
+            [Сатурн, 1997] (* <-lang_ru;; *);
+		  [Saturn, 1997] (* <-lang_en;; *);;
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

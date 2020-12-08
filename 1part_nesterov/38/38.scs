@@ -1,0 +1,197 @@
+concept_star_trek_nemesis
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь: Восстание] 
+(* <- lang_ru;; *); 
+[Star Trek: Nemesis] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь: Восстание)](*<-lang_ru;;*);
+[Description (Star Trek: Nemesis)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Geordi;
+character_Picard; 
+character_Worf;
+character_Riker;
+character_Data 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_nemesis_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_nemesis_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Битва за Землю начинается 13 декабря.»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“On December 13th, the battle for Earth begins"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Stuart_Baird; 
+=>nrel_producer: Rick_Berman;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Jeffrey_Kimball;
+=>nrel_film_composer: Jerry_Goldsmith; 
+=>nrel_editor: Dallas_Puett;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2002
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 116
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 67312826 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Geordi;;
+->character_Picard;; 
+->character_Riker;;
+->character_Data;;
+->character_Worf;;
+->character_Troi;;
+->character_Admiral_Janeway ;; 
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь: Восстание)](*<-lang_ru;;*);
+		[Pic. (Star Trek: Nemesis)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_nemesis.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Admiral_Janeway
+        => nrel_main_idtf: 
+            [Кэтрин Джейнвэй ] (* <-lang_ru;; *);
+		  [Admiral Janeway] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Кэтрин Джейнвэй)] (* <-lang_ru;; *);
+				[Description of character(Admiral Janeway)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Admiral_Janeway_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Admiral_Janeway_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кэтрин Джейнвэй)](*<-lang_ru;;*);
+		[Pic. (Admiral Janeway)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Kathryn_Janeway.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Stuart_Baird
+=> nrel_main_idtf: 
+            [ Стюарт Бэрд] (* <-lang_ru;; *);
+		  [Stuart Baird] (* <-lang_en;; *);;
+Rick_Berman
+  => nrel_main_idtf: 
+            [Рик Берман] (* <-lang_ru;; *);
+		  [Rick_Berman] (* <-lang_en;; *);;
+		  
+Jeffrey_Kimball
+  => nrel_main_idtf: 
+            [Джеффри Кимбалл] (* <-lang_ru;; *);
+		  [Jeffrey Kimball] (* <-lang_en;; *);;
+Jerry_Goldsmith
+  => nrel_main_idtf: 
+            [ Джерри Голдсмит] (* <-lang_ru;; *);
+		  [Jerry Goldsmith] (* <-lang_en;; *);;
+Dallas_Puett
+  => nrel_main_idtf: 
+            [ Даллас Пуэтт] (* <-lang_ru;; *);
+		  [Dallas Puett] (* <-lang_en;; *);;
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

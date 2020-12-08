@@ -1,0 +1,311 @@
+concept_star_trek_the_motion_picture
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь] 
+(* <- lang_ru;; *); 
+[Star Trek: The Motion Picture] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь)](*<-lang_ru;;*);
+[Description (Star Trek: The Motion Picture)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_Kirk;
+character_Spock; 
+character_Dr._McCoy;
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_the_motion_picture_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_the_motion_picture_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Приключение человека только начинается»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“The human adventure is just beginning"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Robert_Wise; 
+=>nrel_producer: Gene_Roddenberry;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Richard_H._Kline;
+=>nrel_film_composer: Jerry_Goldsmith; 
+=>nrel_editor: Todd_C._Ramsay;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {BAFTA_1980; Oscar_1980; Hugo_1980; IFMCA_2013}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1979
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 132
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 82604699 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_Kirk;;
+->character_Spock;; 
+->character_Dr._McCoy;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Dr._Chapel;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_G;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь)](*<-lang_ru;;*);
+		[Pic. (Star Trek: The Motion Picture)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_the_motion_picture.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Capt._James_Kirk
+=> nrel_main_idtf: 
+[Капитан Джеймс Кирк] (* <-lang_ru;; *); 
+[Capt. James T. Kirk] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Капитан Джеймс Кирк)] (* <-lang_ru;; *); 
+[Description of character(Capt. James Kirk)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Capt._James_Kirk_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Capt._James_Kirk_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Капитан Джеймс Кирк)](*<-lang_ru;;*); 
+[Pic. (Capt. James Kirk)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_James_Kirk.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Spock
+=> nrel_main_idtf: 
+[Спок] (* <-lang_ru;; *); 
+[Spock] (* <-lang_en;; *);  
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Спок)] (* <-lang_ru;; *); 
+[Description of character(Spock)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Spock_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Spock_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Спок)](*<-lang_ru;;*); 
+[Pic. (Spock)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Spock.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Dr._McCoy
+        => nrel_main_idtf: 
+            [Доктор Маккой] (* <-lang_ru;; *);
+		  [Dr. McCoy] (* <-lang_en;; *); 
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Доктор Маккой)] (* <-lang_ru;; *);
+				[Description of character(Dr. McCoy)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_McCoy_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_McCoy_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Доктор Маккой)](*<-lang_ru;;*);
+		[Pic. (Dr. McCoy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_McCoy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_Scotty
+        => nrel_main_idtf: 
+            [Монтгомери Скотт] (* <-lang_ru;; *);
+		  [Scotty] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Монтгомери Скотт)] (* <-lang_ru;; *);
+				[Description of character(Scotty)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Scotty_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Scotty_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Монтгомери Скотт)](*<-lang_ru;;*);
+		[Pic. (Scotty)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Scotty.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+            
+character_Sulu
+        => nrel_main_idtf: 
+            [Хикару Сулу] (* <-lang_ru;; *);
+		  [Hikaru Sulu] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Хикару Сулу)] (* <-lang_ru;; *);
+				[Description of character(Hikaru Sulu)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Sulu_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Sulu_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хикару Сулу)](*<-lang_ru;;*);
+		[Pic. (Hikaru Sulu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Sulu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Robert_Wise
+=> nrel_main_idtf: 
+            [Роберт Уайз] (* <-lang_ru;; *);
+		  [Robert Wise] (* <-lang_en;; *);;
+Gene_Roddenberry
+  => nrel_main_idtf: 
+            [Джин Родденберри] (* <-lang_ru;; *);
+		  [Gene Roddenberry] (* <-lang_en;; *);;
+Richard_H._Kline
+  => nrel_main_idtf: 
+            [Ричард Клайн] (* <-lang_ru;; *);
+		  [Richard Kline] (* <-lang_en;; *);;
+Jerry_Goldsmith
+  => nrel_main_idtf: 
+            [Джерри Голдсмит] (* <-lang_ru;; *);
+		  [Jerry Goldsmith] (* <-lang_en;; *);;
+Todd_C._Ramsay
+  => nrel_main_idtf: 
+            [Тодд С. Рамсей] (* <-lang_ru;; *);
+		  [Todd C. Ramsay] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+BAFTA_1980
+ => nrel_main_idtf: 
+            [BAFTA, 1990] (* <-lang_ru;; *);
+		  [BAFTA, 1990] (* <-lang_en;; *);;
+Oscar_1980
+ => nrel_main_idtf: 
+            [Оскар, 1980] (* <-lang_ru;; *);
+		  [Oscar, 1980] (* <-lang_en;; *);;
+Hugo_1980
+ => nrel_main_idtf: 
+    	[Хьюго, 1980] (* <-lang_ru;; *);
+	 [Hugo, 1980] (* <-lang_en;; *);;
+IFMCA_2013
+ => nrel_main_idtf: 
+            [Международная ассоциация киномузыкальных критиков, 2013] (* <-lang_ru;; *);
+		  [International Film Music Critics Award, 2013] (* <-lang_en;; *);;
+	 
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,213 @@
+concept_star_trek_the_voyage_home
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Звёздный путь 4: Дорога домой] 
+(* <- lang_ru;; *); 
+[Star Trek IV: The Voyage Home] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Звёздный путь 4: Дорога домой)](*<-lang_ru;;*);
+[Description (Star Trek IV: The Voyage Home)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+character_Capt._James_T._Kirk;
+character_Spock; 
+character_Scotty;
+character_Sulu  
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_star_trek_the_voyage_home_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_star_trek_the_voyage_home_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: [«Ключ к спасению будущего, можно найти только в прошлом»] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [“The key to saving the future, can be found only in the past"] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Leonard_Nimoy; 
+=>nrel_producer: Harve_Bennett;
+=>nrel_production_country: USA;
+=>nrel_cameraman: Donald_Peterman;
+=>nrel_film_composer: Leonard_Rosenman; 
+=>nrel_editor: Peter_Berger;
+=>nrel_genre:{Adventure; concept_mystery; concept_scifi}; 
+=>nrel_be_awarded: {Hugo_1987; Saturn_1987; Oscar_1987;Saturn_2010}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1986
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 122
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 109713132 
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Capt._James_T._Kirk;;
+->character_Spock;; 
+->character_McCoy;;
+->character_Scotty;;
+->character_Sulu;;
+->character_Saavik;;
+->character_Chekov;;
+->character_Uhura;;            
+*); 
+=>nrel_age_rating: concept_PG;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздный путь 4: Дорога домой)](*<-lang_ru;;*);
+		[Pic. (Star Trek IV: The Voyage Home)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_star_trek_the_voyage_home.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_McCoy
+=> nrel_main_idtf: 
+[Леонард «Боунс» Маккой] (* <-lang_ru;; *); 
+[Leonard McCoy] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Леонард «Боунс» Маккой)] (* <-lang_ru;; *); 
+[Description of character(Leonard McCoy)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_McCoy_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_McCoy_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Леонард «Боунс» Маккой)](*<-lang_ru;;*); 
+[Pic. (Leonard McCoy)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_McCoy.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Leonard_Nimoy
+=> nrel_main_idtf: 
+            [Леонард Нимой] (* <-lang_ru;; *);
+		  [Leonard Nimoy] (* <-lang_en;; *);;
+Harve_Bennett
+  => nrel_main_idtf: 
+            [ Харви Беннетт] (* <-lang_ru;; *);
+		  [Harve Bennett] (* <-lang_en;; *);;
+Donald_Peterman
+  => nrel_main_idtf: 
+            [Дональд Питерман] (* <-lang_ru;; *);
+		  [Donald Peterman] (* <-lang_en;; *);;
+Leonard_Rosenman
+  => nrel_main_idtf: 
+            [Леонард Розенман] (* <-lang_ru;; *);
+		  [Leonard Rosenman] (* <-lang_en;; *);;
+Peter_Berger
+  => nrel_main_idtf: 
+            [Питер Бергер] (* <-lang_ru;; *);
+		  [Peter Berger] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn_1987
+ => nrel_main_idtf: 
+            [Сатурн, 1985] (* <-lang_ru;; *);
+		  [Saturn, 1985] (* <-lang_en;; *);;
+Saturn_2010
+ => nrel_main_idtf: 
+            [Сатурн, 2010] (* <-lang_ru;; *);
+		  [Saturn, 2010] (* <-lang_en;; *);;
+		  
+Hugo_1987
+ => nrel_main_idtf: 
+    	[Хьюго, 1987] (* <-lang_ru;; *);
+	 [Hugo, 1987] (* <-lang_en;; *);;
+Oscar_1987
+=> nrel_main_idtf: 
+            [Оскар, 1987] (* <-lang_ru;; *);
+		  [Oscar, 1987] (* <-lang_en;; *);;
+
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
